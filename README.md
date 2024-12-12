@@ -10,7 +10,7 @@
 2. Open Chrome and go to `chrome://extensions/`
 3. Enable "Developer mode" (top right corner)
 4. Click "Load unpacked" and select your extension directory
-1. 
+
 ## How to Use
 - Click the extension icon
 - Or use the keyboard shortcut `Command+P` (Mac) or `Ctrl+P` (Windows/Linux)
