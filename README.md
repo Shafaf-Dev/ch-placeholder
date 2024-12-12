@@ -2,7 +2,7 @@
 
 ## Features
 - Fill form fields with their placeholder text
-- Keyboard shortcut: `Command+K` (Mac) or `Ctrl+K` (Windows/Linux)
+- Keyboard shortcut: `Command+M` (Mac) or `Ctrl+M` (Windows/Linux)
 - Works on input, textarea, and select elements
 
 ## Installation
@@ -13,7 +13,7 @@
 
 ## How to Use
 - Click the extension icon
-- Or use the keyboard shortcut `Command+K` (Mac) or `Ctrl+K` (Windows/Linux)
+- Or use the keyboard shortcut `Command+M` (Mac) or `Ctrl+M` (Windows/Linux)
 - The extension will fill all form fields with their placeholder text
 
 ## Notes

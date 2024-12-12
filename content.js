@@ -48,8 +48,8 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
 
 // Add keyboard shortcut listener
 document.addEventListener('keydown', (event) => {
-    // Check for Command+K (Mac) or Ctrl+K (Windows/Linux)
-    if ((event.metaKey || event.ctrlKey) && event.key === 'k') {
+    // Check for Command+M (Mac) or Ctrl+M (Windows/Linux)
+    if ((event.metaKey || event.ctrlKey) && event.key === 'm') {
         event.preventDefault(); // Prevent default print dialog
         try {
             fillPlaceholdersWithText();
