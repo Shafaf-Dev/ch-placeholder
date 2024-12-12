@@ -1,0 +1,41 @@
+{
+    "manifest_version": 3,
+    "name": "Placeholder Filler",
+    "version": "1.0",
+    "description": "Fill form fields with their placeholder text using a keyboard shortcut",
+    "permissions": [
+        "activeTab"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ],
+    "commands": {
+        "fill_placeholders": {
+            "suggested_key": {
+                "default": "Ctrl+K",
+                "windows": "Ctrl+K",
+                "mac": "MacCtrl+K",
+                "linux": "Ctrl+K",
+                "chromeos": "Ctrl+K"
+            },
+            "description": "Fill form fields with placeholder text"
+        }
+    },
+    "action": {
+        "default_icon": {
+            "16": "icon16.png",
+            "48": "icon48.png",
+            "128": "icon128.png"
+        }
+    }
+}

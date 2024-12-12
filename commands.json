@@ -1,0 +1,11 @@
+{
+    "commands": {
+        "fill_placeholders": {
+            "suggested_key": {
+                "default": "MacCtrl+K",
+                "mac": "MacCtrl+K"
+            },
+            "description": "Fill form fields with placeholder text"
+        }
+    }
+}
