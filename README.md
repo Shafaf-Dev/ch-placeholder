@@ -2,7 +2,7 @@
 
 ## Features
 - Fill form fields with their placeholder text
-- Keyboard shortcut: `Command+P` (Mac) or `Ctrl+P` (Windows/Linux)
+- Keyboard shortcut: `Command+K` (Mac) or `Ctrl+K` (Windows/Linux)
 - Works on input, textarea, and select elements
 
 ## Installation
