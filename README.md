@@ -13,7 +13,7 @@
 
 ## How to Use
 - Click the extension icon
-- Or use the keyboard shortcut `Command+P` (Mac) or `Ctrl+P` (Windows/Linux)
+- Or use the keyboard shortcut `Command+K` (Mac) or `Ctrl+K` (Windows/Linux)
 - The extension will fill all form fields with their placeholder text
 
 ## Notes
