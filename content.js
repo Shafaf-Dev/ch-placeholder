@@ -2,7 +2,7 @@ function fillPlaceholdersWithText() {
     try {
         // Select all input, textarea, and select elements
         const elements = document.querySelectorAll('input, textarea, select');
-
+        console.log("function calling..!!")
         elements.forEach((element) => {
             // Check if the element has a placeholder
             const placeholder = element.getAttribute('placeholder');
@@ -34,8 +34,10 @@ function fillPlaceholdersWithText() {
 
 // Improved message listener with error handling
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
+    console.log("called 37")
     if (request.action === "fillPlaceholders") {
         try {
+            console.log("request")
             const result = fillPlaceholdersWithText();
             sendResponse(result);
         } catch (error) {
@@ -48,6 +50,7 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
 
 // Add keyboard shortcut listener
 document.addEventListener('keydown', (event) => {
+    console.log("called!!")
     // Check for Command+M (Mac) or Ctrl+M (Windows/Linux)
     if ((event.metaKey || event.ctrlKey) && event.key === 'm') {
         event.preventDefault(); // Prevent default print dialog
@@ -59,4 +62,4 @@ document.addEventListener('keydown', (event) => {
     }
 });
 
-console.log('Placeholder Filler Content Script Loaded');
+console.log('Placeholder Filler Content Script Loaded', chrome.runtime.onMessage);
